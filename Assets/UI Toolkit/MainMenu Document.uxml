@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="UI" style="flex-grow: 1; background-color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/Media/Background.renderTexture?fileID=8400000&amp;guid=f1726df9b743bef4faa07765e4e099ad&amp;type=2#Background&quot;);">
+        <ui:VisualElement name="Header" style="flex-grow: 1; position: absolute; height: 110px; width: 650px; top: 50px; left: 40px; justify-content: center;">
+            <ui:Label text="UIPagesSelectionSystem" name="Title" style="font-size: 40px; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-align: upper-left; flex-direction: column;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; background-size: 39% 100%; position: absolute; height: 695px; width: 650px; top: 200px; left: 40px;" />
+    </ui:VisualElement>
+</ui:UXML>
