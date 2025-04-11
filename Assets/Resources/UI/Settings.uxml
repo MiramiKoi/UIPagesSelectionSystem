@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.8); background-image: url(&quot;project://database/Assets/Media/Background.renderTexture?fileID=8400000&amp;guid=f1726df9b743bef4faa07765e4e099ad&amp;type=2#Background&quot;); -unity-background-image-tint-color: rgb(55, 55, 55);">
+        <ui:Label text="Настройки&#10;" style="-unity-font-definition: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); font-size: 37px; color: rgb(255, 255, 255); position: absolute; top: 36px; left: 45px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>

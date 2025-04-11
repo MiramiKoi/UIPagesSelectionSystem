@@ -21,7 +21,7 @@ namespace UI
             _root = _uiDocument.rootVisualElement;
 
             InitializePages();
-            InitializeButtons();
+            /*InitializeButtons();*/
             
             SelectPage(pages[0]);
         }
@@ -70,7 +70,7 @@ namespace UI
             SelectPage(pages[newPageIndex]);
         }
 
-        private void SelectPage(Page page)
+        public void SelectPage(Page page)
         {
             ClearPages();
         
@@ -83,6 +83,8 @@ namespace UI
 
         private void UpdateHeader()
         {
+            if (currentPage.PageTitle == null) return;
+            
             _root.Q<Label>("Title").text = currentPage.PageTitle;
         }
 
